@@ -1,0 +1,100 @@
+//=================IMPORT=================
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+//=================MAIN===================
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  margin: auto;
+  margin-top: 50vh;
+  translate: 0 -50%;
+  width: 45vh;
+  height: 32vh;
+  background-color: #1f2937;
+  border: 1vmin solid white;
+  border-radius: 5vmin;
+  box-shadow: 0vmin 0vmin 1vmin black;
+  padding: 5vh 2vw;
+  font-size: 3vmin;
+  box-sizing: content-box;
+}
+
+h1 {
+  color: white;
+  font-family: "Karla";
+  font-size: 120%;
+
+  i {
+    font-style: normal;
+    color: rgba(74, 223, 134, 1);
+  }
+}
+
+h3 {
+  display: block;
+  font-size: 65%;
+  color: rgba(213, 212, 216, 1);
+  font-family: "Inter";
+  font-weight: 400;
+  margin-top: 0.7vh;
+}
+
+button {
+  font-size: 60%;
+  font-family: "Inter";
+  font-weight: 500;
+  color: white;
+  background-color: rgba(16, 185, 129, 1);
+  border: none;
+  border-radius: 0.65vmin;
+  padding: 1.5vmin;
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+}
+
+.passwords {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 1.2vw;
+}
+
+.passwords__item {
+  display: inline-block;
+  text-align: center;
+  width:1000%;
+  font-size: 60%;
+  height: 4.5ch;
+  padding: 1.5vmin;
+  border-radius: 0.65vmin;
+  font-family: "Inter";
+  font-weight: 500;
+  background-color: rgba(39, 53, 73, 1);
+  color: rgba(85, 249, 145, 1);
+  white-space: nowrap;
+}
+
+.line {
+  position: relative;
+  top: -3.6vh;
+  height: 0.1vh;
+  width: 100%;
+  border: 0.1vh solid rgba(47, 62, 83, 1);
+}
+
+.clickable {
+  cursor: pointer;
+}
+//================MEDIA================
+
+@media (orientation: portrait) {
+  .container {
+    width: 90vw;
+    height: 90vw;
+  }
+}
